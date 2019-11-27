@@ -172,7 +172,7 @@
 .container .btn {
   position: absolute;
   top: 54.5%;
-  left: 72%;
+  left: 71.5%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #c67a6d;
@@ -236,7 +236,7 @@
 .btn4 {
   position: absolute;
   top: 44.5%;
-  left: 83%;
+  left: 82.8%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #c67a6d;
@@ -290,6 +290,21 @@
   width: 35px;
   height: 35px;
 }
+
+
+/*----- Trykket på prik side -----*/
+
+.baggrundtiltekstkalender {
+  background-color: #grey;
+  opacity: 30%;
+  height: 525px;
+  margin-top: 60px;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  box-shadow: 3px 3px 3px grey;
+}
+
 
 
 /* ------------------- LOG IND --------------------- */
