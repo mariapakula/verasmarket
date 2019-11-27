@@ -150,227 +150,267 @@
 
 /* ------------------- KALENDER -------------------- */
 
-/* not required */
-*,:active{
-	outline: none;
-}
-*{
-	padding: 0px;
-	margin: 0px;
+div, ul, li{
+	list-style-type: none;
 }
 
-body{
-	margin: 20px;
-	background-color: #EEEDE9;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-	font-size: 96.5%;
-	font-family: Helvetica, Arial, sans-serif;
-}
-
-input{
-	font-family: Helvetica, Arial, sans-serif;
-}
-
-h1, h2, h3, h4, h5, p{
-	margin-bottom: 10px;
-}
-
-p{
-	line-height: 20px;
-}
-
-a{
-	text-decoration: none;
-	color: #FF462B;
-}
-
-.clearfix{
-	clear: both;
-}
-
-.animate{
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-
-
-/* required */
-.calendar{
-	position: absolute;
-	border-radius: 4px;
+.planner{
+	font-family: 'Open Sans', sans-serif;
+	width: 394px;
+	margin: 100px auto;
+	box-shadow: 0 0 40px rgba(0,0,0,0.5);
+	border-radius: 5px;
 	overflow: hidden;
-	width: 800px;
-	height: 450px;
-	left: 50%;
-	margin-left: -400px;
-	margin-top: -225px;
-	top: 50%;
-	background-color: #ffffff;
-	color: #333333;
 }
 
-.calendar h1, .calendar h2{
-	font-weight: 300;
-	font-size: 26px;
-	line-height: 28px;
-	text-transform: uppercase;
-	margin: 0px 0px 20px 0px;
+.calendar{
+
+	padding: 10px;
+	background-color: #333333;
 }
 
-.calendar h1 span{
-	display: block;
+.calendar-header{
+	color: #a7a7a7;
+	border-bottom: 1px solid #484848;
+	margin: 0; padding: 0;
+	text-align: justify;
+	line-height: 0px;
+	font-size: 0px;
+	padding-bottom: 10px;
+  }
+
+	.calendar-header span{
+		display: inline-block;
+		font-size: 36px;
+		font-weight: 200;
+		text-align: center;
+		line-height: 36px;
+	}
+
+	.calendar-header:after{
+		content: '';
+		display: inline-block;
+		width: 100%;
+	}
+
+
+table{
+	width: 100%;
+	padding: 10px;
+	color: #9d9d9d;
 }
 
-.calendar .col{
-	position: relative;
-	float: left;
-	height: 100%;
-}
-
-.calendar .col .content{
-	padding: 40px;
-}
-
-.calendar ul{
-	margin: 0px;
-}
-
-.calendar ul li{
-	list-style: none;
-}
-
-.calendar .leftCol{
-	width: 40%;
-	background-color: #F48989;
-}
-
-.calendar .noteList li{
-	color: #ffffff;
-	margin-bottom: 10px;
-}
-
-.calendar .notes p,
-.calendar .notes input,
-.calendar .noteList li{
-	font-weight: 300;
+th{
+	font-weight: normal;
 	font-size: 14px;
+	color: #5b5b5b;
 }
 
-.calendar .notes p{
-	border-bottom: solid 1px rgba(255,255,255,0.4);
+td{
+	font-weight: normal;
+	font-size: 12px;
+	text-align: center;
 }
 
-.calendar .notes input{
-	background-color: #F48989;
-	color: #ffffff;
-	border: none;
-	width: 200px;
+
+td > span{
+	display: inline-block;
+	text-align: center;
+	padding: 3px; margin: 0px;
+	width: 20px; height: 20px;
+  line-height: 20px;
 }
 
-.calendar .addNote,
-.calendar .removeNote{
-	float: right;
-	color: rgba(255,255,255,0.4);
-	font-weight: bold;
-	margin-left: 20px;
+td > span:hover{
+		 font-weight: bold;
+	}
+
+td > span.active{
+		border: 1px solid #98cd60;
+		border-radius: 30px;
+	}
+td > span:active{
+		border: 2px solid #98cd60;
+		border-radius: 30px;
+	}
+
+
+
+.schedule{
+	margin: 0;
 }
 
-.calendar .addNote:hover,
-.calendar .removeNote:hover{
-	color: #ffffff;
+.tabs{
+	margin: 0; padding: 0;
+	text-align: justify;
+	line-height: 0px;
+	font-size: 0px;
+  background-color: #6b6b6b;
+}
+.tabs	.tab{
+		display: inline-block;
+		width: 33.3333%;
+		background-color: #6b6b6b;
+		text-align: center;
+		color: #333333;
+		margin: 0; padding: 0;
+		border: 0px none;
+		line-height: 38px;
+		font-size: 14px;
+		transition: background 0.2s;
 }
 
-.calendar .addNote{
-	font-size: 16px;
+.tab:active{
+			background-color: #999999;
+			color: #ffffff;
+			font-weight: 600;
 }
 
-.calendar .leftCol h1{
-	color: #ffffff;
-	margin-bottom: 40px;
+.tab:avtive:hover{
+			background-color: #999999;
 }
 
-.calendar .rightCol{
-	width: 60%;
-}
 
-.calendar .rightCol h2{
-	color: #C7BEBE;
-	text-align: right;
-	margin-bottom: 70px;
-}
+.tabs	.tab:hover{
+			background-color: #777777;
+		}
 
-.calendar .months li,
-.calendar .weekday li,
-.calendar .days li{
-	float: left;
-	text-transform: uppercase;
-}
+		a{
+			color: inherit;
+			text-decoration: none;
+		}
 
-.calendar .months li a,
-.calendar .weekday li a,
-.calendar .days li a{
+	.tabs:after{
+		content: '';
+		width: 100%;
+		display: inline-block;
+	}
+
+
+.schedule-list{
+	padding: 20px;
+	margin-left: 37px;
+	border-left: 2px solid #cccccc;
 	display: block;
-	color: #747978;
 }
 
-.calendar .months li a{
-	font-size: 10px;
-	color: #C7BEBE;
-	text-align: center;
-	width: 32px;
-	margin-bottom: 20px;
+.schedule-item{
+	display: block;
+	margin-bottom: 50px;
+	padding: 0;
+  clear: both;
+  min-height: 100px;
+  overflow: visible;
 }
 
-.calendar .months li .selected{
-	font-weight: bold;
-	color: #747978;
+.schedule-item:last-child{
+		margin-bottom: 10px;
+    min-height: 30px;
+	}
+
+.time{
+		display: block;
+		float: left;
+		margin-left: -41px;
+		width: 36px; height: 36px;
+		border: 2px solid #cccccc;
+		background-color: #ffffff;
+		color: #cccccc;
+		border-radius: 40px;
+		text-align: center;
+		padding: 0px;
+		line-height: 25px;
+}
+.time	span{
+			font-size: 12px;
+			height: 10px;
+			margin: auto;
+			display: block;
+		}
+
+.description{
+		display: block;
+    float: left;
+    width: 305px;
+		margin-top: 10px;
+		margin-left: 10px;
+		color: #fd9a4a;
+		font-size: 14px;
+    overflow: visible;
 }
 
-.calendar .weekday li a{
-	width: 55px;
-	text-align: center;
-	margin-bottom: 20px;
-	font-size: 12px;
+.description	.description-content{
+		margin-top: 5px;
 }
+.description	.description-content p {
+				font-size: 12px;
+				margin: 0;
+				color: #c5c5c5;
+			}
 
-.calendar .days li{
-	width: 55px;
+.description	.description-content	ul.contact-list{
+				margin: 0;
+				margin-top: 10px;
+				padding: 0;
 }
-
-.calendar .days li a{
-	width: 36px;
-	height: 24px;
-	text-align: center;
-	margin: auto auto;
-	font-size: 12px;
-	font-weight: bold;
-	border-radius: 12px;
-	margin-bottom: 10px;
-	padding-top: 10px;
+.description	.description-content	ul.contact-list	li.contact{
+					overflow: hidden;
+					display: block;
+					float: left;
+					margin: 0; padding: 0;
+					border: 2px solid fadeout(#98cd60, 75%);
+					border-radius: 60px;
+					width: 56px; height: 56px;
+					text-decoration: none;
+					text-align: center;
+					margin-right: 10px;
+					transition: all 0.2s;
 }
+.description	.description-content	ul.contact-list	li.contact	img{
+						width: 60px; height: 60px;
+					}
 
+.description	.description-content	ul.contact-list	li.contact:hover{
+						border: 2px solid #98cd60;
+					}
 
-.calendar .days li a:hover{
-	background-color: #EEEDE9;
+.description	.description-content	ul.contact-list	li.contact.add-contact{
+						color: #98cd60;
+						font-size: 20px;
+						line-height: 60px;
 }
+.description	.description-content	ul.contact-list	li.contact.add-contact a{
+							color: inherit;
+							text-decoration: none;
+						}
 
-.calendar .days li .selected{
-	background-color: #F5A1A3!important;
-	color: #ffffff;
-}
+.description .description-content	ul.contact-list	li.contact .add-contact a:hover{
+							background-color: fadeout(#98cd60, 75%);
+						}
 
-.calendar .days li .event{
-	color: #F5A1A3;
-}
+.schedule-item.free .time{
+			border: 2px solid #98cd60;
+		}
 
+.schedule-item.free .description .description-header{
+        background-color: #ffffff;
+        color: #c5c5c5;
+        display: block;
+        float: left;
 
-/* placeholder color */
-::-webkit-input-placeholder {color: #ffffff; }
-:-moz-placeholder {color: #ffffff; }
-::-moz-placeholder {color: #ffffff; }
-:-ms-input-placeholder {color: #ffffff; }
+			}
+
+.schedule-item.free .description .description-content{
+        margin-left: 5px;
+        margin-top: 0;
+        content: '';
+        width: 215px;
+        display: block;
+        float: right;
+        background-image:  url(https://dl.dropboxusercontent.com/u/2915418/filler.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+      }
 
 /* ------------------- LOG IND --------------------- */
 
