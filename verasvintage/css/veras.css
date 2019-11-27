@@ -172,7 +172,7 @@
 .container .btn {
   position: absolute;
   top: 54.5%;
-  left: 60.3%;
+  left: 72%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #c67a6d;
@@ -193,7 +193,103 @@
 
 /* --- PRIK 2 ---*/
 
+.btn2 {
+  position: absolute;
+  top: 38.1%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #c67a6d;
+  opacity: 40%;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50% 50%;
+  width: 35px;
+  height: 35px;
+}
 
+/* --- PRIK 3 ---*/
+
+.btn3 {
+  position: absolute;
+  top: 44.5%;
+  left: 71.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #c67a6d;
+  opacity: 40%;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50% 50%;
+  width: 35px;
+  height: 35px;
+}
+
+/* --- PRIK 4 ---*/
+
+.btn4 {
+  position: absolute;
+  top: 44.5%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #c67a6d;
+  opacity: 40%;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50% 50%;
+  width: 35px;
+  height: 35px;
+}
+
+/* --- PRIK 5 ---*/
+
+.btn5 {
+  position: absolute;
+  top: 58%;
+  left: 71.9%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #c67a6d;
+  opacity: 40%;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50% 50%;
+  width: 35px;
+  height: 35px;
+}
+
+/* --- PRIK 6 ---*/
+
+.btn6 {
+  position: absolute;
+  top: 58%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #c67a6d;
+  opacity: 40%;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50% 50%;
+  width: 35px;
+  height: 35px;
+}
 
 
 /* ------------------- LOG IND --------------------- */
