@@ -4,7 +4,7 @@
 /* --------- VOTE --------- */
 
 
-/*---------------- FORSIDE ---------------*/
+/*---------------- FORSIDE VERAS ---------------*/
 
 .headerstykke {
   height: 45px;
@@ -60,7 +60,7 @@
 }
 
 .hvaderverasmarkettekst {
-  font-family: 'bodoni', serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -74,12 +74,12 @@
   font-style: bold;
   text-align: center;
   color: #707070;
-  padding-top: 20%;
+  padding-top: 50%;
   font-size: 22px;
 }
 
 .hvaderverasmarkettekst1 {
-  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -102,7 +102,7 @@
 }
 
 .step1tekst {
-  font-family: 'lora', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: #717171;
   text-align: center;
@@ -121,7 +121,7 @@
 }
 
 .step2tekst {
-  font-family: 'lora', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: #717171;
   text-align: center;
@@ -130,6 +130,7 @@
 
 .step3billede {
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .step3overskrift {
@@ -140,7 +141,7 @@
 }
 
 .step3tekst {
-  font-family: 'lora', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: #717171;
   text-align: center;
@@ -320,7 +321,7 @@ span.opret a {
 
 .profiltekst {
   text-align: center;
-  font-family: 'lora', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 
 }
@@ -334,7 +335,7 @@ span.opret a {
   cursor: pointer;
   border-radius: 4px;
   padding-left: 18px;
-  font-family: 'lora', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   border: 1px solid lightgrey;
   margin-left: 18px;
@@ -354,7 +355,7 @@ span.opret a {
   cursor: pointer;
   border-radius: 4px;
   padding-left: 18px;
-  font-family: 'lora', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   border: 1px solid lightgrey;
   margin-left: 18px;
@@ -373,7 +374,7 @@ span.opret a {
   cursor: pointer;
   border-radius: 4px;
   padding-left: 18px;
-  font-family: 'lora', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   border: 1px solid lightgrey;
   margin-left: 18px;
@@ -392,7 +393,7 @@ span.opret a {
   cursor: pointer;
   border-radius: 4px;
   padding-left: 18px;
-  font-family: 'lora', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   border: 1px solid lightgrey;
   margin-left: 18px;
@@ -411,7 +412,7 @@ span.opret a {
   cursor: pointer;
   border-radius: 4px;
   padding-left: 18px;
-  font-family: 'lora', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   border: 1px solid lightgrey;
   margin-left: 18px;
