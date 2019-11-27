@@ -168,130 +168,73 @@
   height: auto;
 }
 
-/* Style the button and place it in the middle of the container/image */
-.container .btn {
+.mybtn {
   position: absolute;
-  top: 54.5%;
-  left: 71.5%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #c67a6d;
-  opacity: 40%;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
   border-radius: 50% 50%;
+  color: #c77b6e;
   width: 35px;
   height: 35px;
+  opacity: 50%;
+  margin-top: -59.5%;
+  margin-left: 63.8%;
 }
 
-.container .btn:hover {
-  background-color: grey;
-}
 
-/* --- PRIK 2 ---*/
-
-.btn2 {
+.mybtn2 {
   position: absolute;
-  top: 38.1%;
-  left: 82%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #c67a6d;
-  opacity: 40%;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
   border-radius: 50% 50%;
+  color: #c77b6e;
   width: 35px;
   height: 35px;
+  opacity: 50%;
+  margin-top: -59.5%;
+  margin-left: 75%;
 }
 
-/* --- PRIK 3 ---*/
 
-.btn3 {
+.mybtn3 {
   position: absolute;
-  top: 44.5%;
-  left: 71.5%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #c67a6d;
-  opacity: 40%;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
   border-radius: 50% 50%;
+  color: #c77b6e;
   width: 35px;
   height: 35px;
+  opacity: 50%;
+  margin-top: -48%;
+  margin-left: 65%;
 }
 
-/* --- PRIK 4 ---*/
-
-.btn4 {
+.mybtn4 {
   position: absolute;
-  top: 44.5%;
-  left: 82.8%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #c67a6d;
-  opacity: 40%;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
   border-radius: 50% 50%;
+  color: #c77b6e;
   width: 35px;
   height: 35px;
+  opacity: 50%;
+  margin-top: -48%;
+  margin-left: 76%;
 }
 
-/* --- PRIK 5 ---*/
-
-.btn5 {
+.mybtn5 {
   position: absolute;
-  top: 58%;
-  left: 71.9%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #c67a6d;
-  opacity: 40%;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
   border-radius: 50% 50%;
+  color: #c77b6e;
   width: 35px;
   height: 35px;
+  opacity: 50%;
+  margin-top: -24%;
+  margin-left: 65%;
 }
 
-/* --- PRIK 6 ---*/
-
-.btn6 {
+.mybtn6 {
   position: absolute;
-  top: 58%;
-  left: 83%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #c67a6d;
-  opacity: 40%;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
   border-radius: 50% 50%;
+  color: #c77b6e;
   width: 35px;
   height: 35px;
+  opacity: 50%;
+  margin-top: -24%;
+  margin-left: 76%;
 }
-
-
 
 /* The Modal (background) */
 .modal {
