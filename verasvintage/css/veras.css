@@ -1,0 +1,515 @@
+/*---------------- FORSIDE ---------------*/
+
+.headerstykke {
+  height: 45px;
+  background: #FAEBEB;
+  width: 100%;
+  border-bottom: 1px solid #A8A8A6;
+  text-align: center;
+  position: fixed;
+  z-index: 99;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.veraslogoforside img {
+  height: 70px;
+  width: 80px;
+  margin-top: -12px;
+}
+
+.tekstitop1 {
+  color: #c77b6e;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  margin-top: 12px;
+  text-shadow: 1px 0.5px white;
+}
+
+/*------------------ BAGGRUND TIL TEKST --------------*/
+
+.baggrundtiltekst {
+  background-color: #c77b6e;
+  opacity: 30%;
+  height: 525px;
+  margin-top: 60px;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  box-shadow: 3px 3px 3px grey;
+}
+
+/*-------------------- HVAD ER VERAS MARKET -------------*/
+
+.hvaderverasmarketoverskrift {
+  font-family: 'Lora', serif bold;
+  font-style: bold;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 18%;
+  font-size: 22px;
+  margin-top: -550px;
+}
+
+.hvaderverasmarkettekst {
+  font-family: 'bodoni', serif;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 14px;
+  padding-top: 2%;
+  color: #ffffff;
+}
+
+.hvaderverasmarketoverskrift1 {
+  font-family: 'Lora', serif bold;
+  font-style: bold;
+  text-align: center;
+  color: #707070;
+  padding-top: 20%;
+  font-size: 22px;
+}
+
+.hvaderverasmarkettekst1 {
+  font-family: 'Lora', serif;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 14px;
+  padding-top: 5%;
+  color: #717171;
+}
+
+/*-- LEJ EN STAND BILLEDER --*/
+
+.step1billede {
+  text-align: center;
+}
+
+.step1overskrift {
+  font-family: 'lora', serif;
+  font-size: 18px;
+  color: #c77b6e;
+  text-align: center;
+}
+
+.step1tekst {
+  font-family: 'lora', serif;
+  font-size: 14px;
+  color: #717171;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.step2billede {
+  text-align: center;
+}
+
+.step2overskrift {
+  font-family: 'lora', serif;
+  font-size: 18px;
+  color: #c77b6e;
+  text-align: center;
+}
+
+.step2tekst {
+  font-family: 'lora', serif;
+  font-size: 14px;
+  color: #717171;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.step3billede {
+  text-align: center;
+}
+
+.step3overskrift {
+  font-family: 'lora', serif;
+  font-size: 18px;
+  color: #c77b6e;
+  text-align: center;
+}
+
+.step3tekst {
+  font-family: 'lora', serif;
+  font-size: 14px;
+  color: #717171;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+/* ------------------- KALENDER -------------------- */
+
+.jzdbox1 {
+  width:315px;
+  background:#332f2e;
+  border-radius:5px;
+  overflow:hidden;
+  display:block;
+  margin-bottom:10px;
+  box-shadow:0 0 10px #201d1c;
+  margin:0 auto;
+  margin-top:100px;
+}
+
+.jzdcal {
+  padding:0 10px 10px 10px;
+  box-sizing:border-box!important;
+  background:#749d9e;
+  background: -webkit-linear-gradient(#749d9e, #b3a68b)!important;
+  background: -o-linear-gradient(#749d9e, #b3a68b)!important;
+  background: -moz-linear-gradient(#749d9e, #b3a68b)!important;
+  background: linear-gradient(#749d9e, #b3a68b)!important;
+}
+
+.jzdcalt {
+  font:18px 'lora' serif;
+  font-weight:700;
+  color:#f7f3eb;
+  display:block;
+  margin:18px 0 0 0;
+  text-transform:uppercase;
+  text-align:center;
+  letter-spacing:1px;
+}
+
+.jzdcal span {
+  font:11px 'lora' serif;
+  font-weight:400;
+  color:#f7f3eb;
+  text-align:center;
+  width:42px;
+  height:42px;
+  display:inline-block;
+  float:left;
+  overflow:hidden;
+  line-height:40px;
+}
+
+.jzdcal .jzdb:before {
+  opacity:0.3;
+  content:'o';
+}
+
+.circle {
+  border:1px solid #f7f3eb;
+  box-sizing:border-box!important;
+  border-radius:200px!important;
+}
+
+span[data-title]:hover:after,
+div[data-title]:hover:after {
+  font:11px 'lora' serif;
+  font-weight:400;
+  content:attr(data-title);
+  position:absolute;
+  margin:0 0 100px;
+  background:#282423;
+  border:1px solid #f7f3eb;
+  color:#f7f3eb;
+  padding:5px;
+  z-index:9999;
+  min-width:150px;
+  max-width:150px;
+}
+
+/* ------------------- LOG IND --------------------- */
+
+.hr2 {
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+/* Overskriften på siden "Log ind" */
+.logindoverskrift {
+  text-align: center;
+  font-family: 'lora', sans-serif;
+  font-size: 24px;
+  margin-top: 80px;
+  color: #c77b6e;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=E-mailadresse] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: 'lora', sans-serif;
+}
+
+/* Brugernavn og adgangskode */
+.containerprofil {
+  padding: 16px;
+  font-family: 'lora', sans-serif;
+  font-size: 12px;
+}
+
+/* Glemt adgangskode */
+span.psw {
+  float: left;
+  font-family: 'lora', sans-serif;
+  font-size: 12px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  padding-left: 17px;
+}
+
+span.psw a {
+  color: black;
+}
+
+.logind {
+  background-color: #c77b6e;
+  padding: 4px 4px;
+  margin: 4px 4px;
+  width: 40%;
+  border-radius: 18px;
+  padding-left: 20px;
+}
+
+.logindknap {
+  background-color: #c77b6e;
+  color: #ffffff;
+  padding: 8px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 20px;
+  font-family: 'lora', sans-serif;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+  margin-bottom: -10px;
+  text-decoration: none;
+}
+
+.logindknap a {
+  color: #ffffff;
+}
+
+.forblivloggetind {
+  font-family: 'lora', sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.opret {
+  font-size: 14px;
+  font-family: 'lora', sans-serif;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+span.opret a {
+  color: black;
+}
+
+/* ----------------- OPRET BRUGER -----------------*/
+
+.opretbrugeroverskrift {
+  font-family: 'Lora', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 40px;
+  color: #c77b6e;
+  margin-top: 80px;
+}
+
+.opretbrugertekst {
+  font-family: 'Lora', sans-serif;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.hr3 {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+.opretbokse {
+  font-family: 'Lora', sans-serif;
+  padding: 16px;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.opretknap {
+  background-color: #c77b6e;
+  color: white;
+  padding: 8px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'Lora', sans-serif;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+}
+
+.opretknap a {
+  color: #ffffff;
+}
+
+/* -------------------  MIN PROFIL ---------------- */
+
+
+.hr5 {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.profilbillede {
+  margin-top: -10px;
+  text-align: center;
+}
+
+
+.profiltekst {
+  text-align: center;
+  font-family: 'lora', sans-serif;
+  font-size: 14px;
+
+}
+
+.mineoplysninger {
+  background-color: #c77b6e;
+  color: white;
+  padding: 8px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'lora', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+  margin-top: 20px;
+}
+
+.mineoplysninger a {
+  color: #ffffff;
+}
+
+.senesteordrer {
+  background-color: #c77b6e;
+  color: white;
+  padding: 8px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'lora', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+}
+
+.senesteordrer a {
+  color: #ffffff;
+}
+
+.sogehistorik {
+  background-color: #c77b6e;
+  color: white;
+  padding: 8px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'lora', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+}
+
+.sogehistorik a {
+  color: #ffffff;
+}
+
+.senestebilledgenkendelser {
+  background-color: #c77b6e;
+  color: white;
+  padding: 8px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'lora', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+}
+
+.senestebilledgenkendelser a {
+  color: #ffffff;
+}
+
+.logud {
+  background-color: #c77b6e;
+  color: white;
+  padding: 8px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'lora', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+  margin-bottom: 20%;
+}
+
+.logud a {
+  color: #ffffff;
+}
+
+/* ------------------- NEDERSTE MENU -------------------*/
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbarbottom {
+  background: #FAEBEB;
+  border-top: 1px solid #A8A8A6;
+  z-index: 99;
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/* Style the links inside the navigation bar */
+.navbarbottom a {
+  display: inline-block;
+  text-align: center;
+  padding: 2px 4px;
+  padding-bottom: 0px;
+}
+
+.navbarbottom a img {
+  height: 60px;
+  width: 60px;
+}
