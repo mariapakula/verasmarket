@@ -256,9 +256,10 @@
   background-color: #fefefe;
   margin: 50% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
+  border: 1px solid #black;
   width: 80%; /* Could be more or less, depending on screen size */
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* The Close Button */
@@ -276,6 +277,19 @@
   cursor: pointer;
 }
 
+.tyndpil1 {
+  height: 30px;
+  weight: 30px;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.tyndpil2 {
+  height: 30px;
+  weight: 30px;
+  margin-left: 20%;
+  margin-top: 5%;
+}
 
 
 
