@@ -423,8 +423,8 @@ span.opret a {
   text-align: center;
   font-size: 12px;
   margin-top: 15px;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .hr3 {
@@ -457,7 +457,8 @@ span.opret a {
   margin-left: 25%;
   margin-right: auto;
   font-size: 14px;
-  margin-bottom: 30%;
+  margin-top: -2%;
+  margin-bottom: 25%;
   font-family: 'Playfair Display', serif;
 }
 
