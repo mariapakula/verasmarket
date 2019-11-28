@@ -29,8 +29,8 @@
 .tekstitop1 {
   color: #c77b6e;
   font-size: 20px;
-  font-family: 'rieslingregular';
-  margin-top: 12px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 2%;
 }
 
 /*------------------ BAGGRUND TIL TEKST --------------*/
@@ -343,6 +343,13 @@
 
 /* ------------------- LOG IND --------------------- */
 
+.baggrundbillede {
+margin-top: 15%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
 .hr2 {
   width: 25%;
   margin-left: 37.5%;
@@ -353,9 +360,9 @@
 /* Overskriften på siden "Log ind" */
 .logindoverskrift {
   text-align: center;
-  font-family: 'lora', sans-serif;
-  font-size: 24px;
-  margin-top: 25%;
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-top: -150%;
   color: #c77b6e;
 }
 
@@ -377,6 +384,8 @@ input[type=text], input[type=password], input[type=E-mailadresse] {
   font-family: 'Open sans', sans-serif;
   font-size: 12px;
   color: #c77b6e;
+  opacity: 60%;
+  margin-top: -5%;
 }
 
 /* Glemt adgangskode */
@@ -410,7 +419,7 @@ span.psw a {
   width: 40%;
   cursor: pointer;
   border-radius: 4px;
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   border: 1px solid lightgrey;
   margin-left: 30%;
   margin-right: auto;
@@ -447,12 +456,12 @@ span.opret a {
 /* ----------------- OPRET BRUGER -----------------*/
 
 .opretbrugeroverskrift {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Playfair Display', serif;
   text-align: center;
-  font-size: 24px;
+  font-size: 36px;
   margin-top: 40px;
   color: #c77b6e;
-  margin-top: 25%;
+  margin-top: -150%;
 }
 
 .opretbrugertekst {
@@ -460,6 +469,8 @@ span.opret a {
   text-align: center;
   font-size: 12px;
   margin-top: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .hr3 {
@@ -474,8 +485,9 @@ span.opret a {
   font-family: 'Open Sans', sans-serif;
   padding: 16px;
   font-size: 12px;
-  margin-top: 15px;
+  margin-top: -10%;
   color: #c77b6e;
+  opacity: 60%;
 }
 
 .opretknap {
@@ -487,12 +499,13 @@ span.opret a {
   cursor: pointer;
   border-radius: 4px;
   padding-left: 18px;
-  font-family: 'Open Sans', sans-serif;
   border: 1px solid lightgrey;
   margin-left: 25%;
   margin-right: auto;
   font-size: 14px;
-  margin-bottom: 30%;
+  margin-top: -2%;
+  margin-bottom: 25%;
+  font-family: 'Playfair Display', serif;
 }
 
 .opretknap a {
