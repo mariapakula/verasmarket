@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="description" content="Veras Market app">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/veras.css">
+    <link rel="stylesheet" href="css/lejstand.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <title>VERAS MARKET</title>
@@ -20,8 +21,14 @@
     </span>
   </header>
 
-<!-- INDHOLD --------------->
+<!-- INDHOLD ---------------->
 
+<!-- LILLE KALENDER -->
+
+<div class="lillekalender">
+<label for="dateofbirth">Vælg dato:</label>
+<input type="date" name="dateofbirth" id="dateofbirth">
+</div>
 
 
   <!-- MENU NEDERST -------->
@@ -51,23 +58,5 @@
 </body>
 
 <script>
-(function($){
-	function floatLabel(inputType){
-		$(inputType).each(function(){
-			var $this = $(this);
-			// on focus add cladd active to label
-			$this.focus(function(){
-				$this.next().addClass("active");
-			});
-			//on blur check field and remove class if needed
-			$this.blur(function(){
-				if($this.val() === '' || $this.val() === 'blank'){
-					$this.next().removeClass();
-				}
-			});
-		});
-	}
-	// just add a class of "floatLabel to the input field!"
-	floatLabel(".floatLabel");
-})(jQuery);
+
 </script>

@@ -1,0 +1,93 @@
+/*--------- HEADER ---------*/
+.headerstykke {
+  height: 45px;
+  background: #FAEBEB;
+  width: 100%;
+  border-bottom: 1px solid #A8A8A6;
+  text-align: center;
+  position: fixed;
+  z-index: 99;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.veraslogoforside img {
+  height: 70px;
+  width: 80px;
+  margin-top: -12px;
+}
+
+.tekstitop1 {
+  color: #c77b6e;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 2%;
+}
+
+/* -------- LEJ EN STAND -------- */
+
+.lillekalender {
+  font-family: 'Open Sans', sans-serif;
+  padding: 4em;
+  background: #ffffff;
+  font: 13px;
+  margin-right: auto;
+  margin-left: -50px;
+}
+
+[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+  font-family: 'Open Sans', sans-serif;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+}
+input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 190px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ------------------- NEDERSTE MENU -------------------*/
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbarbottom {
+  background: #FAEBEB;
+  border-top: 1px solid #A8A8A6;
+  z-index: 99;
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Style the links inside the navigation bar */
+.navbarbottom a {
+  display: inline-block;
+  text-align: center;
+  padding: 0.5% 1%;
+  padding-bottom: 0px;
+  padding-left: 1.8%;
+}
+
+.navbarbottom a img {
+  height: 60px;
+  width: 60px;
+}
