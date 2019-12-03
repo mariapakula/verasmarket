@@ -244,7 +244,7 @@ span.price {
 .tilbagetilstart {
   background-color: #c77b6e;
   color: white;
-  padding: 20px 20px;
+  padding: 10px 20px;
   margin: 4px 0;
   width: 89%;
   cursor: pointer;
@@ -254,15 +254,31 @@ span.price {
   font-size: 14px;
   border: 1px solid lightgrey;
   margin-left: 18px;
-  margin-top: 30%;
+  margin-top: -5%;
 }
+
+.a2 a {
+  color: white;
+}
+
+/* ------------------- tak overskrift -------------------*/
+
+.takoverskrift {
+  font-family: 'Open Sans', sans-serif;
+  color: #c77b6e;
+  font-size: 34px;
+  text-align: center;
+  margin-top: 50%;
+}
+
+
 
 /* -------- CHECKBOX -------- */
 
 #myStand {
   width: 4%;
   margin-left: 1%;
-  
+
 
 
 }
@@ -280,6 +296,7 @@ span.price {
 
 
 }
+
 
 
 
