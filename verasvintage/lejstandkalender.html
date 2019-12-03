@@ -30,6 +30,14 @@
 
 <!-- INDHOLD ---------------->
 
+<form action="/action_page.php">
+  <input id="myStand" type="checkbox" name="vehicle1" value="1 stand" checked>1 stand<br>
+  <input id="myBord" type="checkbox" name="vehicle2" value="1 bord">1 bord<br>
+  <input id="myTøjstativ" type="checkbox" name="vehicle3" value="1 tøjstativ" checked>1 tøjstativ<br><br>
+</form>
+
+
+
 <h2>Kurv</h2>
 <div class="row">
   <div class="col-75">
@@ -80,18 +88,19 @@
           </div>
 
         </div>
-
-        <input type="submit" value="Godkend bestilling" class="btn">
+        <div class="a1">
+        <button type="button" class="btn"><a href="takfordinbestilling.html" style="text-decoration: none;">Godkend bestilling</a></button>
+      </div>
       </form>
     </div>
   </div>
   <div class="col-25">
     <div class="container">
-      <h4>Bestillinger<span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>2</b></span></h4>
+      <h3>Bestillinger<span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>2</b></span></h3>
       <p><a>1 stand</a> <span class="price" style="color:black">450 DKK</span></p>
       <p><a>1 tøjstativ</a> <span class="price" style="color:black">190 DKK</span></p>
       <hr>
-      <p>Total <span class="price" style="color:black"><b>640 DKK</b></span></p>
+      <p><b>Total</b><span class="price" style="color:black"><b><u>640 DKK</u></b></span></p>
     </div>
   </div>
 </div>

@@ -202,6 +202,8 @@ label {
   border-radius: 3px;
   cursor: pointer;
   font-size: 17px;
+  margin-bottom: 25%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .btn:hover {
@@ -209,8 +211,13 @@ label {
 }
 
 a {
-  color: #2196F3;
+  color: black;
 }
+
+.a1 a {
+  color: white;
+}
+
 
 hr {
   border: 1px solid lightgrey;
@@ -231,6 +238,40 @@ span.price {
   }
 }
 
+/* ------------------- tilbage til forside knap -------------------*/
+
+.tilbagetilstart {
+  background-color: #c77b6e;
+  color: white;
+  padding: 20px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+  margin-top: 30%;
+}
+
+/* -------- CHECKBOX -------- */
+
+#myStand {
+  width: 5%;
+  float: left;
+}
+
+#myBord {
+  width: 5%;
+  float: left;
+}
+
+#myTøjstativ {
+  width: 5%;
+  float: left;
+}
 
 /* ------------------- NEDERSTE MENU -------------------*/
 
