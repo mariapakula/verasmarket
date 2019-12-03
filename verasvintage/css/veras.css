@@ -1,4 +1,25 @@
 
+<<<<<<< HEAD
+=======
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+/*---------------- LEJ EN STAND ---------------*/
+
+
+
+/* --------- VOTE --------- */
+
+
+>>>>>>> 9e2792d0bfaf7ba5b7a7a38864c01da271a4f401
 /*---------------- FORSIDE VERAS ---------------*/
 
 .headerstykke {

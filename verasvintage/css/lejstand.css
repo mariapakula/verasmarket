@@ -28,13 +28,77 @@
 
 /* -------- LEJ EN STAND -------- */
 
+.norrebrohallen {
+  background-color: #c77b6e;
+  color: white;
+  padding: 20px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+  margin-top: 30%;
+}
+
+.norrebrohallen a {
+  color: #ffffff;
+}
+
+.underbuen {
+  background-color: #c77b6e;
+  color: white;
+  padding: 20px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+}
+
+.underbuen a {
+  color: #ffffff;
+}
+
+.storms {
+  background-color: #c77b6e;
+  color: white;
+  padding: 20px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+}
+
+.storms a {
+  color: #ffffff;
+}
+
+/* -------- lille kalender -------- */
+
 .lillekalender {
   font-family: 'Open Sans', sans-serif;
   padding: 4em;
   background: #ffffff;
   font: 13px;
   margin-right: auto;
-  margin-left: -50px;
+  margin-left: auto;
+  margin-top: 8%;
+  text-align: center;
+  margin-bottom: -10%;
+
 }
 
 [type="date"] {
@@ -50,7 +114,7 @@
 
 label {
   display: block;
-  font-size: 13px;
+  font-size: 18px;
 }
 input {
   border: 1px solid #c4c4c4;
@@ -61,6 +125,180 @@ input {
   width: 190px;
   font-family: 'Open Sans', sans-serif;
 }
+
+/* ------------------- booking system -------------------*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #c77b6e;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  margin-bottom: 25%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn:hover {
+  background-color: #FAEBEB;
+}
+
+a {
+  color: black;
+}
+
+.a1 a {
+  color: white;
+}
+
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+/* ------------------- tilbage til forside knap -------------------*/
+
+.tilbagetilstart {
+  background-color: #c77b6e;
+  color: white;
+  padding: 10px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+  margin-top: -5%;
+}
+
+.a2 a {
+  color: white;
+}
+
+/* ------------------- tak overskrift -------------------*/
+
+.takoverskrift {
+  font-family: 'Open Sans', sans-serif;
+  color: #c77b6e;
+  font-size: 34px;
+  text-align: center;
+  margin-top: 50%;
+}
+
+
+
+/* -------- CHECKBOX -------- */
+
+#myStand {
+  width: 4%;
+  margin-left: 1%;
+
+
+
+}
+
+#myBord {
+  width: 4%;
+  margin-left: 14%;
+
+
+}
+
+#myTøjstativ {
+  width: 4%;
+  margin-left: 14%;
+
+
+}
+
+
+
 
 
 /* ------------------- NEDERSTE MENU -------------------*/

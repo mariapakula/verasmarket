@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Veras Market app">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/lejstand.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <title>VERAS MARKET</title>
+  </head>
+
+<body>
+
+<!-- HEADERSTYKKE ----------->
+
+  <header>
+    <span class="headerstykke">
+        <p class="tekstitop1">LEJ EN STAND</p>
+    </span>
+  </header>
+
+<!-- LILLE KALENDER -->
+
+<div class="lillekalender">
+<label for="dateofbirth">Vælg dato:</label>
+<input type="date" name="dateofbirth" id="dateofbirth">
+</div>
+
+<!-- INDHOLD ---------------->
+
+<form>
+
+  <input id="myStand" type="checkbox" name="vehicle1" value="1 stand" checked>1 stand</>
+
+  <input id="myBord" type="checkbox" name="vehicle2" value="1 bord">1 bord</>
+
+  <input id="myTøjstativ" type="checkbox" name="vehicle3" value="1 tøjstativ" checked>1 tøjstativ</>
+</form>
+
+
+
+
+
+
+<h2>Kurv</h2>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Dine oplysninger</h3>
+            <label for="fname"><i class="fa fa-user"></i> Fulde navn</label>
+            <input type="text" id="fname" name="firstname" placeholder="Stine Henriksen">
+            <label for="email"><i class="fa fa-envelope"></i>Email</label>
+            <input type="text" id="email" name="email" placeholder="stineh@hotmail.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Adresse</label>
+            <input type="text" id="adr" name="address" placeholder="Kongensgade 4">
+            <label for="city"><i class="fa fa-institution"></i> By</label>
+            <input type="text" id="city" name="city" placeholder="Frederiksbjerg">
+
+            <div class="row">
+              <div class="col-50">
+              </div>
+              <div class="col-50">
+                <label for="zip">Postnummer</label>
+                <input type="text" id="zip" name="zip" placeholder="2000">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Betaling</h3>
+
+            <label for="cname">Navn på kort</label>
+            <input type="text" id="cname" name="cardname" placeholder="Stine Henriksen">
+            <label for="ccnum">Kortnummer</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Udløbsmåned</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Udløbsår</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="a1">
+        <button type="button" class="btn"><a href="takfordinbestilling.html" style="text-decoration: none;">Godkend bestilling</a></button>
+      </div>
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+    <div class="container">
+      <h3>Bestillinger<span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>2</b></span></h3>
+      <p><a>1 stand</a> <span class="price" style="color:black">450 DKK</span></p>
+      <p><a>1 tøjstativ</a> <span class="price" style="color:black">190 DKK</span></p>
+      <hr>
+      <p><b>Total</b><span class="price" style="color:black"><b><u>640 DKK</u></b></span></p>
+    </div>
+  </div>
+</div>
+
+
+  <!-- MENU NEDERST -------->
+
+  <div class="navbarbottom">
+
+    <a href="lejstand.html">
+    <img src="images/lejstandlogo.png"  alt="lejstandikon">
+    </a>
+
+    <a href="vote.html">
+    <img src="images/thumbslogo.png"  alt="voteikon">
+    </a>
+
+    <a href="verasforside.html">
+    <img src="images/veraslogo.png" alt="verasmarketlogo">
+    </a>
+
+    <a href="kalender.html">
+    <img src="images/kalenderlogo.png" alt="kalenderikon"></a>
+
+    <a href="logind.html">
+    <img src="images/profillogo.png" alt="profilikon"></a>
+
+  </div>
+
+</body>
+
+</html>
