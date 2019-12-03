@@ -41,7 +41,7 @@
   font-size: 14px;
   border: 1px solid lightgrey;
   margin-left: 18px;
-  margin-top: 30%;
+  margin-top: 50%;
 }
 
 .norrebrohallen a {
@@ -269,6 +269,22 @@ span.price {
   font-size: 34px;
   text-align: center;
   margin-top: 50%;
+  margin-bottom: -3%;
+}
+
+.bestillingsoversigt {
+  font-family: 'Open Sans', sans-serif;
+  color: #c77b6e;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10%;
+  border-style: solid;
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-width: thin;
+  margin-right: 6%;
+  margin-left: 6%;
 }
 
 
