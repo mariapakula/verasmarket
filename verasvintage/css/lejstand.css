@@ -28,6 +28,66 @@
 
 /* -------- LEJ EN STAND -------- */
 
+.norrebrohallen {
+  background-color: #c77b6e;
+  color: white;
+  padding: 20px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+  margin-top: 30%;
+}
+
+.norrebrohallen a {
+  color: #ffffff;
+}
+
+.underbuen {
+  background-color: #c77b6e;
+  color: white;
+  padding: 20px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+}
+
+.underbuen a {
+  color: #ffffff;
+}
+
+.storms {
+  background-color: #c77b6e;
+  color: white;
+  padding: 20px 20px;
+  margin: 4px 0;
+  width: 89%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  margin-left: 18px;
+}
+
+.storms a {
+  color: #ffffff;
+}
+
+/* -------- lille kalender -------- */
+
 .lillekalender {
   font-family: 'Open Sans', sans-serif;
   padding: 4em;
