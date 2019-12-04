@@ -159,7 +159,8 @@ body {
   background: #FFFFFF;
   display: inline-block;
   margin: 0 8px;
-  margin-bottom: 20%;
+  margin-bottom: -10%;
+  margin-top: -8%;
 }
 
 .tinder--buttons button:focus {
