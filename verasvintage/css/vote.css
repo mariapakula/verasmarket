@@ -147,7 +147,7 @@ body {
 .tinder--buttons {
   flex: 0 0 100px;
   text-align: center;
-  padding-top: 20px;
+  margin-top: 5%;
 }
 
 .tinder--buttons button {
@@ -168,7 +168,6 @@ body {
 .tinder--buttons i {
   font-size: 32px;
   vertical-align: middle;
-  padding-bottom: 20;
 }
 
 .fa-heart {
