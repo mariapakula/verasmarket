@@ -257,7 +257,7 @@ DER --*/
 }
 
 .mybtn {
-  position: fixed;
+  position: absolute;
   border-radius: 50% 50%;
   color: #c77b6e;
   width: 35px;
@@ -269,7 +269,7 @@ DER --*/
 
 
 .mybtn2 {
-  position: fixed;
+  position: absolute;
   border-radius: 50% 50%;
   color: #c77b6e;
   width: 35px;
@@ -281,7 +281,7 @@ DER --*/
 
 
 .mybtn3 {
-  position: fixed;
+  position: absolute;
   border-radius: 50% 50%;
   color: #c77b6e;
   width: 35px;
@@ -292,7 +292,7 @@ DER --*/
 }
 
 .mybtn4 {
-  position: fixed;
+  position: absolute;
   border-radius: 50% 50%;
   color: #c77b6e;
   width: 35px;
@@ -303,7 +303,7 @@ DER --*/
 }
 
 .mybtn5 {
-  position: fixed;
+  position: absolute;
   border-radius: 50% 50%;
   color: #c77b6e;
   width: 35px;
