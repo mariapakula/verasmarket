@@ -384,8 +384,6 @@ DER --*/
 
 
 
-
-
 /* ------------------- LOG IND --------------------- */
 
 .baggrundbillede {
@@ -560,33 +558,42 @@ span.opret a {
 /* -------------------  MIN PROFIL ---------------- */
 
 .profilbaggrund {
-  margin-left: -7%;
-  margin-right: -10%;
-  width: 115%;
-  height: 150%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.boks {
+  background-color: #ffffff;
+  width: 85%;
+  padding-bottom: 100px;
+  position: fixed;
+  opacity: 0.7;
+  margin-top: -550px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .overskrift {
   font-family: 'Playfair Display', serif;
-  text-align: center;
   font-size: 36px;
-  margin-top: -150%;
   color: #c77b6e;
+  position: absolute;
+  margin-left: 17.5%;
 }
 
 .hr5 {
   width: 30%;
   margin-left: 35%;
-  margin-top: 2%;
-;
+  margin-top: -5%;
 }
 
 .profiltekst {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  margin-top: -5%;
-  margin-bottom: 20%;
+  margin-top: 40%;
+  margin-bottom: 10%;
 }
 
 .senesteordrer {
@@ -594,14 +601,13 @@ span.opret a {
   color: white;
   padding: 8px 20px;
   margin: 4px 0;
-  width: 89%;
+  width: 70%;
   cursor: pointer;
   border-radius: 4px;
-  padding-left: 18px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   border: 1px solid lightgrey;
-  margin-left: 18px;
+  margin-left: 15%;
 }
 
 .senesteordrer a {
@@ -613,14 +619,13 @@ span.opret a {
   color: white;
   padding: 8px 20px;
   margin: 4px 0;
-  width: 89%;
+  width: 70%;
   cursor: pointer;
   border-radius: 4px;
-  padding-left: 18px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   border: 1px solid lightgrey;
-  margin-left: 18px;
+  margin-left: 15%;
 }
 
 .billedersvurdering a {
@@ -632,14 +637,13 @@ span.opret a {
   color: white;
   padding: 8px 20px;
   margin: 4px 0;
-  width: 89%;
+  width: 70%;
   cursor: pointer;
   border-radius: 4px;
-  padding-left: 18px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   border: 1px solid lightgrey;
-  margin-left: 18px;
+  margin-left: 15%;
   margin-bottom: 20%;
 }
 
@@ -653,10 +657,9 @@ span.opret a {
 .ordrertekst {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    padding-left: 18px;
+    font-size: 12px;
+    padding-left: 16%;
 }
-
 
 /* ------------------- NEDERSTE MENU -------------------*/
 
