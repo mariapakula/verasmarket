@@ -738,10 +738,24 @@ span.opret a {
   text-align: center;
   padding: 0.5% 1%;
   padding-bottom: 0px;
-  padding-left: 1.8%;
+  padding-left: 1.9%;
 }
 
 .navbarbottom a img {
   height: 60px;
   width: 60px;
+}
+
+/* For iPhone 8 plus */
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+  .navbarbottom a {
+    display: inline-block;
+    text-align: center;
+    padding: 0.5% 1%;
+    padding-bottom: 0px;
+    padding-left: 3.2%;
+  }
 }
